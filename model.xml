@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="ChatAppFID">
+            <feature mandatory="true" name="Color"/>
+            <feature mandatory="true" name="Authentication"/>
+            <feature mandatory="true" name="History"/>
+            <alt name="Encryption">
+                <feature name="Rot13"/>
+                <feature name="Exchange1st2Letters"/>
+            </alt>
+            <alt name="InputFeatures">
+                <feature name="GUI"/>
+                <feature name="CommandLine"/>
+            </alt>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

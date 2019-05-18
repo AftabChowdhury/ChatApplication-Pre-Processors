@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="ChatAppFID"/>
+    <feature automatic="selected" name="Color"/>
+    <feature automatic="selected" name="Authentication"/>
+    <feature automatic="selected" name="History"/>
+    <feature automatic="selected" name="Encryption"/>
+    <feature manual="selected" name="Rot13"/>
+    <feature automatic="unselected" name="Exchange1st2Letters"/>
+    <feature automatic="selected" name="InputFeatures"/>
+    <feature manual="selected" name="GUI"/>
+    <feature automatic="unselected" name="CommandLine"/>
+</configuration>
